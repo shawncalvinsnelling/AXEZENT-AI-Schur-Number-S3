@@ -1,0 +1,23 @@
+Repository name:
+AXEZENT-AI-Schur-Number-S3
+
+Description:
+Finite certificate for Schur number S(3)=13 and forcing threshold 14 using exact reproducible verification.
+
+Main upload commit summary:
+feat: add Axezent AI Schur S3 finite certificate
+
+Main upload extended description:
+Adds finite verification artifact for Schur number S(3)=13, including n=13 avoider search, n=14 forcing verification, tests, logo, and receipt path.
+
+After main upload, create this file manually in GitHub:
+.github/workflows/ci.yml
+
+Copy contents from:
+CI_WORKFLOW_TO_ADD_AFTER_UPLOAD.yml
+
+CI commit summary:
+ci: add verification workflow
+
+CI extended description:
+Adds GitHub Actions workflow to install the package and run verification tests on push and pull request.
